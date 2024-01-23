@@ -1,0 +1,22 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
+    width: 240px;
+}
+
+@media only screen and (min-width: 768px) {
+    .list {
+    width: 360px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+    .list {
+        margin-bottom: 30px;
+        width: 420px;
+  }
+}

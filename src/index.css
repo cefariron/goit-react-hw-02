@@ -1,0 +1,44 @@
+@import './components/App.css';
+
+body {
+    background-color: #f4f3fc;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+#root {
+    width: 280px;
+    margin: 0 auto;
+  }
+
+@media only screen and (min-width: 375px) {
+    #root {
+    width: 345px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    #root {
+    width: 728px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+    #root {
+    width: 964px;
+  }
+}
