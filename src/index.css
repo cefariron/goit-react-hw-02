@@ -1,44 +1,55 @@
 @import './components/App.css';
 
 body {
-    background-color: #f4f3fc;
+  color: #f7ff58;
+  background-color: #f4f3fc;
 }
 
 h1,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 #root {
-    width: 280px;
-    margin: 0 auto;
-  }
+  width: 280px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+
+  background-image: linear-gradient(
+    rgba(159, 159, 159, 0.7),
+    rgba(201, 201, 201, 0.7)
+  ),
+   url('.//img/coffee-7851453_1280.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 @media only screen and (min-width: 375px) {
-    #root {
+  #root {
     width: 345px;
   }
 }
 
 @media only screen and (min-width: 768px) {
-    #root {
+  #root {
     width: 728px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-    #root {
+  #root {
     width: 964px;
   }
 }
